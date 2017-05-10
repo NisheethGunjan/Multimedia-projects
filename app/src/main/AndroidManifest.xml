@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.am.chandan.allmantra">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GanpatiMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".MantraList"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".MahaMrityunjayaMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".OmNamahShivayaMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".HanumanMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".GayatriMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".ShreeKrishnaMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".MahaLakshmiMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".KuberaMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".SaiBabaMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".MahaKaliMantra"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".ShaniMantra"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>
